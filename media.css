@@ -1,0 +1,61 @@
+@media screen and (max-width: 726px){
+    .col-4,.col-3{
+        width: 100%;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .projects__experience-item{
+        width: 100%;
+    }
+    .hero__title{
+        font-size: 32px;
+        line-height: 1.5;
+        margin-bottom: 12px;
+    }
+    .hero__subtitle{
+        font-size: 14px;
+    }
+    .projects .title{
+        margin-top: -300px;
+    }
+    .contacts__row{
+        flex-wrap: wrap;
+    }
+    .request__row{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .request__row button{
+        margin-top: 30px;
+    }
+    .request__content h6{
+        margin-top: 22px;
+    }
+    .partners__row{
+        flex-wrap: wrap;
+    }
+    .partners-item{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .partners-item img{
+        object-fit: contain;
+    }
+    .contacts__row{
+        padding-top: 20px;
+    }
+    .contacts-item{
+        margin-bottom: 10px;
+    }
+    .contacts-item h4{
+        padding-bottom: 5px;
+    }
+    .partners,.reviews{
+        overflow: hidden;
+    }
+    .footer__row{
+        flex-direction: column;
+    }
+}
